@@ -46,6 +46,26 @@ Han introducerer spillet Gem Catcher vist nedenfor, som man bygger i denne sekti
 
 <img src="GemCatcher.PNG" style="zoom:80%;" />
 
+#### Godot setup
+
 Først demonstrerer han, hvordan man installerer Godot. Man åbner en browser og navigerer hen til https://godotengine.org/ og downloader "Godot Engine" (*ikke* "Godot Engine - .NET"). Bemærk, at man bare bl.a. downloader den eksekverbar fil "Godot_v4.4-rc1_win64.exe", som man kan lægge, hvor man vil og bare eksekvere for at starte IDE'en op. I IDE'en er der et Asset library, hvor man kan downloade en masse eksempelprojekter. Der er også en Settings-knap, hvor man kan vælge mellem et antal naming styles, hvor han i øvrigt selv foretrækker Pascal.
 
-Han gør opmærksom på, at man, når man laver et nyt projekt, bør vælge "Mobile", som renderer.
+Han gør opmærksom på, at man, når man laver et nyt projekt, bør vælge "Mobile", som renderer. Sjovt nok vælger han at unchecke Git, så han ikke får en gitignore fil. Jeg lod den være checked og fik filen vist nedenfor:
+
+```
+# Godot 4+ specific ignores
+.godot/
+/android/
+```
+
+Bemærk, at det ikke er meningen at man skal submitte .godot-folderen
+
+Han demonstrerer, hvordan man laver et nyt projekt
+
+#### Running a project
+
+Han demonstrerer, hvordan man opretter en scene og tilføjer et icon til den ved at dragge icon-svg-filen fra FileSystem-viewet ind på viewporten, der vises som et rektangel i den centrale del af IDE'ens gui.
+
+#### The Godot IDE
+
+Han demonstrerer, hvordan man bruger tools fra toolbaren til f.eks. at panne, zoome, selecte og repositionere icons.

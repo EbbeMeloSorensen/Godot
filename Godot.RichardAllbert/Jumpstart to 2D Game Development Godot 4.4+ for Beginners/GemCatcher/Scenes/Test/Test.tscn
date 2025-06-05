@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dsdvdjpv7may0"]
+
+[ext_resource type="Texture2D" uid="uid://2fdxew6upq1" path="res://icon.svg" id="1_dr6pc"]
+
+[node name="Test" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(305, 257)
+rotation = -0.570699
+scale = Vector2(0.861316, 2.18866)
+texture = ExtResource("1_dr6pc")
